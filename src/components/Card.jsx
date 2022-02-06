@@ -1,21 +1,24 @@
 import React from "react";
 import starimg from "./photo/star.svg"
 
-function Card() {
+export default function Card (props) {
+    const {product, onAdd } = props;
     return (
     <div className="card">
-        <div className="cardimg"></div>
+        <div className="cardimg">
+        <img className="cardimg1" src={props.img} alt="propsimge"/>
+        </div>
         <div className="cardcomp">
-        <p className="par">SCRUNCHIE</p>
-        <p>price 5000 IQD</p>
+        <p className="par">{props.title}</p>
+        <p>Price: {props.price} IQD</p>
+        <p>In Stock: {props.stock} </p>
         <img className="star" width={"20px"} src={starimg} alt="star"/>
         <img className="star" width={"20px"} src={starimg} alt="star"/>
         <img className="star" width={"20px"} src={starimg} alt="star"/>
         <img className="star" width={"20px"} src={starimg} alt="star"/>
         <img className="star" width={"20px"} src={starimg} alt="star"/>
         </div>
-        <button className="cartbtn">ADD TO CART</button>
+        <button className="cartbtn" onClick={() => onAdd(product)}>ADD TO CART</button>
     </div>
     );
 }
-export default Card;

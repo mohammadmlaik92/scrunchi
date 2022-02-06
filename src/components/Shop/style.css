@@ -1,0 +1,24 @@
+.divtext{
+    background-color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 8rem 0 3rem 0;
+    font-weight:bold;
+}
+.cardconti{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+
+}
+.cardconti:hover .card
+{
+  filter: blur(1px);
+  transform: scale(0.95);
+  opacity: 0.9;
+}
+.cardconti .card:hover{
+  filter: blur(0px);
+  transform: scale(1.05);
+  opacity: 1;
+}

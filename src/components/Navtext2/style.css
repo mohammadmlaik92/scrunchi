@@ -1,0 +1,25 @@
+.navtext2 {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 10rem;
+  }
+
+.headerItem2 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    cursor: pointer;
+    user-select: none;
+    text-decoration: none;
+  }
+  
+.headerItem2:hover {
+   /* border-bottom: 0.2rem solid black; */
+   font-weight: bold;
+
+
+ }
+  

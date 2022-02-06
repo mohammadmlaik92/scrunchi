@@ -1,0 +1,138 @@
+.artpic{
+
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    /* justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left | right ... + safe | unsafe; */
+    justify-content: center;
+    margin: 10px 100px;
+    /* background-color: cadetblue; */
+}
+
+.insta-box{
+    display: none;
+    left: 0;
+    position: absolute;
+    background-color: burlywood;
+    width: 300px;
+    height: 300px;
+    background: url(../photo/insta.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+.artpic-box{
+    margin: 10px;
+    background-color: burlywood;
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 0 35px 0px rgb(202, 199, 199);
+    background: url(../photo/sc2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+/* ///////////////////// */
+.artpic-box1:hover{
+    transform: scale(1);
+    opacity: 0.6;
+}
+.artpic-box2:hover{
+    transform: scale(1);
+    opacity: 0.6;
+}
+.artpic-box3:hover{
+    transform: scale(1);
+    opacity: 0.6;
+}
+.artpic-box4:hover{
+    transform: scale(1);
+    opacity: 0.6;
+}
+.artpic-box5:hover{
+    transform: scale(1);
+    opacity: 0.6;
+}
+.artpic-box6:hover{
+    transform: scale(1);
+    opacity: 0.6;
+}
+.artpic-box7:hover{
+    transform: scale(1);
+    opacity: 0.6;
+}
+.artpic-box8:hover{
+    transform: scale(1);
+    opacity: 0.6;
+}
+.artpic-box:hover{
+    transform: scale(1);
+    opacity: 0.6;
+}
+/* /////////////////////// */
+.artpic-box1:hover .insta-box{
+    display: block;
+}
+.artpic-box2:hover .insta-box{
+    display: block;
+}
+.artpic-box3:hover .insta-box{
+    display: block;
+}
+.artpic-box4:hover .insta-box{
+    display: block;
+}
+.artpic-box5:hover .insta-box{
+    display: block;
+}
+.artpic-box6:hover .insta-box{
+    display: block;
+}
+.artpic-box7:hover .insta-box{
+    display: block;
+}
+.artpic-box8:hover .insta-box{
+    display: block;
+}
+.artpic-box:hover .insta-box{
+    display: block;
+}
+.artpic-box1{
+    margin: 10px;
+    background-color: burlywood;
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 0 35px 0px rgb(202, 199, 199);
+    background: url(../photo/sc111.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.artpic-box2{
+    margin: 10px;
+    background-color: burlywood;
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 0 35px 0px rgb(202, 199, 199);
+    background: url(../photo/sc222.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.artpic-box3{
+    margin: 10px;
+    background-color: burlywood;
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 0 35px 0px rgb(202, 199, 199);
+    background: url(../photo/sc44.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.artpic-box4{
+    margin: 10px;
+    background-color: burlywood;
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 0 35px 0px rgb(202, 199, 199);
+    background: url(../photo/sc55.jpg);
+    background-position: center;
+    background-size: cover;
+}

@@ -1,0 +1,9 @@
+.new{
+    background-color: red;
+    border-radius: 8px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-left: 13rem;
+    padding: 0.5rem 0rem;
+}

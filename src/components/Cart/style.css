@@ -1,0 +1,19 @@
+.collection{
+
+    display: flex;
+    flex-direction:row;
+    /* justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left | right ... + safe | unsafe; */
+    justify-content: space-around;
+    margin: 10px 160px;
+}
+.collection-box{
+    background-color: aqua;
+    width: 245px;
+    height: 245px;
+    border-radius: 8px;
+    box-shadow: 0 0 35px 0px rgb(202, 199, 199);
+    background: url(../photo/sc.jpg);
+    background-position: center;
+    background-size: cover;
+
+}

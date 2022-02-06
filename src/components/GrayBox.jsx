@@ -1,5 +1,7 @@
 import React from "react";
 import g1 from "./photo/g1.png"
+import {Link } from "react-router-dom";
+
 
 function GrayBox() {
     return (
@@ -13,7 +15,7 @@ function GrayBox() {
                     <p className="par1">find at scrunchie is unique, just like you. </p>
                 </div>
                 <div style={{display:'flex',width : "100%",justifyContent : 'center'}}>
-                    <button className="cartbtn2">SHOPPING NOW</button>
+                <Link className="headerItem" to={"/shop"} ><button className="cartbtn1">SHOPPING NOW</button></Link>
                 </div>
             </div>
         </div>

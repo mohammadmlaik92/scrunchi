@@ -52,10 +52,19 @@ header {
   margin-left: 1rem;
   cursor: pointer;
   user-select: none;
+  text-decoration: none;
+}
+Link{      padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-size: 1.2rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  cursor: pointer;
+  user-select: none;
+  text-decoration: none;
 }
 
 .headerItem:hover {
-  border-bottom: 0.2rem solid black;
   font-weight: bold;
 }
 
@@ -78,9 +87,10 @@ header {
 }
 
 .divheaderimg{
-  display : "flex";
+  display : flex;
   flex-direction: column;
-  align-items : center;
+  align-items:center;
+  align-content: center;
 }
 
 h2{
@@ -102,18 +112,23 @@ h2:hover{
 
 
 }
-
-.footer1 {
+.footer2{
+  display: block;
   display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  padding: 0rem 11.5rem;
+}
+.footer1 {
   justify-content: center;
-  align-items: center;
   background-color: #eee;
   text-align: center;
   background-color: eee;
   padding: 10px 35px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
   width: 100%;
-  height: 80px;
+  height: 130px;
+  margin-top: 40px;
 }
 
 .footer1 p {
@@ -124,7 +139,8 @@ h2:hover{
   background: linear-gradient(45deg,#ffffff0c,#f8b1b129);
   border-radius: 8px;
   /* box-shadow: 0 2px 5px #ccc; */
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(217, 152, 152, 0.13) 0px 0px 0px 1px;  height: 440px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(217, 152, 152, 0.13) 0px 0px 0px 1px;  
+  height: 460px;
   margin: 50px 40px;
   float: left;
   text-align: left;
@@ -133,7 +149,6 @@ h2:hover{
   display: flex;
   flex-direction:row;
   overflow: scroll;
-
 }
 .cardcont:hover .card
 {
@@ -153,11 +168,17 @@ h2:hover{
   border-top-right-radius: 8px;
   /* box-shadow: 0 2px 5px #ccc; */
   /* box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3); */
-  padding: 10px;
+  
   width: 300px;
   height: 260px;
   margin: 0x;
   
+}
+.cardimg1{
+  width: 100%;
+  height: 100%;
+  border-top-left-radius:8px ;
+  border-top-right-radius:8px ;
 }
 .note h1 {
   font-size: 1.1em;
@@ -205,6 +226,7 @@ h2:hover{
   display: block;
   text-align: center;
   margin-top: 2rem;
+  cursor: pointer;
 }
 
 .cartbtn1:hover{
@@ -231,6 +253,7 @@ h2:hover{
   box-shadow: 0 0 50px 0 #f8b1b1;
 }
 .cartbtn:hover{
+  color: #eee;
   box-shadow: 0 0 20px 0 rgba(51, 51, 51, 0.466);
 }
 .cardcomp{
@@ -286,11 +309,14 @@ padding: 4rem 8rem;
   height: 480px;
 }
 .scrunchiehh1{
-  color: #f7f7f7;
+  color: #ececec;
   font-size: 100px;
 }
 
 
 *::-webkit-scrollbar {
   display: none;
+}
+.paylogo{
+  width: 10rem;
 }
